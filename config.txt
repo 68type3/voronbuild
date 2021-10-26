@@ -69,9 +69,10 @@ gpu_mem=128
 
 #MainsailOS Specific
 #Enables UART Communication by default
-enable_uart=1
+#enable_uart=1
 
 [pi0w]
 #pi0(w) Specific
+#enable_uart=1
 
-
+#dtoverlay=pi3-disable-bt
